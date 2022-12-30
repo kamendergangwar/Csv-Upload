@@ -1,0 +1,19 @@
+{
+  "name": "csv_file_Upload",
+  "version": "1.0.0",
+  "description": "An Application which reads csv file and show the data in the tabular form ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamendersinghgangwar",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.20"
+  }
+}
